@@ -20,7 +20,7 @@ function renderHistoryParagraph() {
         </p>
     `
 aboutUsPara.innerHTML = historyParagraph
-imageDiv.style.backgroundImage = `url("images/street.jpg")`
+imageDiv.style.backgroundImage = `url("street.jpg")`
 }
 
 
@@ -33,7 +33,7 @@ function renderVisionParagraph() {
         </p>
     `
     aboutUsPara.innerHTML = visionParagraph
-    imageDiv.style.backgroundImage = `url("images/hill.jpg")`
+    imageDiv.style.backgroundImage = `url("hill.jpg")`
 }
 
 
@@ -48,5 +48,5 @@ function renderGoalsParagraph() {
     `
     aboutUsPara.innerHTML = goalsParagraph
 
-    imageDiv.style.backgroundImage = `url("images/success.webp")`
+    imageDiv.style.backgroundImage = `url("success.webp")`
 }
