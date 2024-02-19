@@ -1,0 +1,82 @@
+* {
+    font-family: "Titillium Web", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(242, 248, 252, 0.479);
+    margin: 0 1rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+    height: 400px;
+}
+
+.image-div,
+.about-us-card {
+    width: 50%;
+}
+
+.image-div {
+    background-image: linear-gradient(135deg, rgba(206, 207, 207, 0.514), rgb(116, 116, 114));
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.about-us-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+   
+}
+
+.about-us-card ul {
+    background-color: rgba(206, 207, 207, 0.514);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-card li {
+    display: inline;
+    text-align: center;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.about-us-card li:hover {
+    background-color: whitesmoke;
+    border: 2px solid rgba(109, 128, 128, 0.514);
+}
+
+.about-us-para {
+    padding: 1.25rem 1.125rem;
+   
+}
+
+.injected-para {
+   line-height: 2;
+}
